@@ -30,6 +30,7 @@ const Navbar = () => {
   }, []);
 
   return (
+
     <div
       style={{ backgroundColor: `${navBg}` }}
       className={
@@ -44,8 +45,8 @@ const Navbar = () => {
             <Image
               src={NavLogo}
               alt='/'
-              width='125'
-              height='50'
+              width='190'
+              height='90'
               className='cursor-pointer'
             />
           </a>
