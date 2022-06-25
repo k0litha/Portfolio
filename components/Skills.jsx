@@ -11,10 +11,10 @@ import Python from '../public/assets/skills/python.png'
 import Azure from '../public/assets/skills/azure.png';
 import Kotlin from '../public/assets/skills/kotlin.png';
 import TensorFlow from '../public/assets/skills/tensorflow.png';
-import Csharp from '../public/assets/skills/C.png';
+import Csharp from '../public/assets/skills/c.png';
 import Net from '../public/assets/skills/net.png';
 import PHP from '../public/assets/skills/php.png';
-import Java from '../public/assets/skills/JAVA.png';
+import Java from '../public/assets/skills/java.png';
 import Node from '../public/assets/skills/node.png';
 const Skills = () => {
   return (
