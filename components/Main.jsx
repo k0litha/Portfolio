@@ -23,7 +23,7 @@ const Main = () => {
           <Image
               src={NavLogo}
               alt='/'
-              width='240'
+              width='270'
               height='110'
               className='cursor-pointer'
             />

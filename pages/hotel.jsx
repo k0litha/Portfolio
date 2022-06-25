@@ -18,7 +18,7 @@ const hotel = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Thread-Safe Hotel Room Reservation Website</h2>
-          <h3>Next JS / Tailwind / Next Auth</h3>
+          <h3>Java EE / Ajax / JQuery / MySQL / PayPal API</h3>
         </div>
       </div>
 
@@ -27,28 +27,18 @@ const hotel = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This is a mobile responsive recreation of Twitch.tv and features
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with either a Github account or a Google account. A
-            few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+          Thread safe Hotel resevation website built using Java EE and servlets. Paypal Sandbox has
+           also intergrated as the main payment method. AJAX has been used to
+           post data without reloading the reservation page to achieve a better user experiecnce.
           </p>
           <a
-            href='https://twitch-nextjs-tailwind.vercel.app/'
+            href='https://github.com/k0litha/Hotel-Room-Reservation-Website#hotel-room-reservation-website'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+            <button className='px-8 py-2 mt-4 mr-8'>Code & Demo</button>
           </a>
-          <a
-            href='https://github.com/fireclint/twitch-nextjs-tailwind'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Code</button>
-          </a>
+       
 
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
@@ -56,22 +46,28 @@ const hotel = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next.JS
+                <RiRadioButtonFill className='pr-1' /> Java EE
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Ajax
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> JQery
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next Auth
+                <RiRadioButtonFill className='pr-1' /> HTML/CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Github Auth
+                <RiRadioButtonFill className='pr-1' /> PayPal API
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google Auth
+                <RiRadioButtonFill className='pr-1' /> MySQL
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> MVC Architecture
               </p>
             </div>
           </div>

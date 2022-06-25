@@ -38,7 +38,8 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Kolitha Senevirathe</h2>
-                <p>Software Developer</p>
+
+                <p>Colombo, Srilanka.</p>
                 <p className='py-4'>
                 I am currently seeking a company that will help me contribute to its development while concurrently aiding my personal growth.
                 </p>
