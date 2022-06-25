@@ -1,51 +1,57 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import maskImg from '../public/assets/projects/mask.png';
+import noteImg from '../public/assets/projects/note.png';
+import hotelImg from '../public/assets/projects/hotel.png';
+import posImg from '../public/assets/projects/pos.png';
+import ecomImg from '../public/assets/projects/ecom.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
-  return (
+  return (<div><br/><br/><br/><br/><br/>
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-2xl tracking-widest uppercase text-[#456676]'>
           Projects
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Masked-Face Recognition and Detection'
+            backgroundImg={maskImg}
+            projectUrl='/mask'
+            tech='Python | TensorFlow'
+          />
+           <ProjectItem
+            title='Restaurent POS System'
+            backgroundImg={posImg}
+            projectUrl='/pos'
+            tech='.Net | C#'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
+            title='Thread-Safe Hotel Room Reservation Website'
+            backgroundImg={hotelImg}
+            projectUrl='/hotel'
+            tech='Java EE | AJAX'
           />
           <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            title='To-Note Note Taking Mobile App'
+            backgroundImg={noteImg}
+            projectUrl='/note'
+            tech='Kotlin | MVVM'
           />
-          <ProjectItem
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+       
+            <ProjectItem
+            title='EcommerceWebsite'
+            backgroundImg={ecomImg}
+            projectUrl='/ecom'
+            tech='PHP | HTML/CSS'
           />
+         
         </div>
       </div>
-    </div>
+    </div></div>
   );
 };
 

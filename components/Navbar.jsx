@@ -35,22 +35,12 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+          ? 'fixed  w-full h-14 shadow-xl z-[100] ease-in-out duration-300'
+          : 'fixed w-full h-14 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Link href='/'>
-          <a>
-            <Image
-              src={NavLogo}
-              alt='/'
-              width='190'
-              height='90'
-              className='cursor-pointer'
-            />
-          </a>
-        </Link>
+      <div className='flex justify-center items-center w-full h-full px-2 2xl:px-16'>
+        
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -87,7 +77,7 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'md:hidden fixed  left-0 top-0 w-full h-screen bg-black/70' : ''
         }
       >
         {/* Side Drawer Menu */}
@@ -104,8 +94,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width='140'
+                    height='70'
                     alt='/'
                   />
                 </a>
@@ -117,11 +107,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className='border-b border-gray-300 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4'>
-                Kolitha Senevirathne
-              </p>
-            </div>
+            
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
@@ -162,7 +148,7 @@ const Navbar = () => {
               </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                  href='https://www.linkedin.com/in/kolitha-senevirathne/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -171,7 +157,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://github.com/fireclint'
+                  href='https://github.com/k0litha'
                   target='_blank'
                   rel='noreferrer'
                 >
